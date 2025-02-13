@@ -1,1 +1,36 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.testimonial-slide{
+    padding: 20px;
+    width: 40%;
+    background: aliceblue;
+    position: relative;
+}
+
+.user-img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-60px);
+}
+
+img{
+  width: 100px;
+    border-radius: 50px;
+}
+
+p{
+  padding-top: 50px;
+}
+}
+
 
