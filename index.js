@@ -16,9 +16,9 @@ const testimonialslide = [
   }
 ]; 
 
-const nameTS = document.queryselector(.name);
-const textTS = document.queryselector(.text);
-const imgTS = document.queryselector(img);
+const nameTS = document.querySelector(.name);
+const textTS = document.querySelector(.text);
+const imgTS = document.querySelector(img);
 
 const index = 0;
 
