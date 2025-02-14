@@ -16,9 +16,10 @@ const testimonialslide = [
   }
 ]; 
 
-const nameTS = document.querySelector(.name);
-const textTS = document.querySelector(.text);
-const imgTS = document.querySelector(img);
+const imgTS = document.querySelector("img");
+const nameTS = document.querySelector(".name");
+const textTS = document.querySelector(".text");
+
 
 const index = 0;
 
@@ -26,9 +27,11 @@ testimonial();
 
 function testimonial(){
   const {name, img, text} = testimonialslide[index];
-  nameTS.innertext = name;
-  textTS.innertext = text;
+
   imgTS.src = img;
+  nameTS.innerText=name;
+  textTS.innerText=text;
+  
 
   index++; 
   if (index === testimonialslide){
